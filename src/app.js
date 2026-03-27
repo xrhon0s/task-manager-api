@@ -1,4 +1,5 @@
 const express = require('express');
+const taskRoutes = require('./routes/task.routes');
 
 const app = express();
 
@@ -10,5 +11,7 @@ app.get('/api/health', (req, res) => {
     message: 'Task Manager API is running'
   });
 });
+
+app.use('/api/tasks', taskRoutes);
 
 module.exports = app;
