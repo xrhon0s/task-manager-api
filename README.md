@@ -13,6 +13,7 @@ A robust REST API for task management, built with a layered architecture to ensu
 
 ## Project Structure
 
+```bash
 src/
 ├── app.js            # Express configuration
 ├── server.js         # Server entry point
