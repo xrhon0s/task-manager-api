@@ -44,8 +44,10 @@ src/
 
 ---
 
+
 ## Task Model
 
+```bash
 {
   "id": "17123456789",
   "title": "Learn Express",
@@ -56,6 +58,7 @@ src/
   "updatedAt": "2026-03-28T20:00:00.000Z"
 }
 
+```
 ---
 
 ## Getting Started
