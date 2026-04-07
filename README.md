@@ -26,6 +26,7 @@ src/
 ├── services/         # Business logic
 └── utils/            # Reusable helper logic
 
+```
 ---
 
 ## API Endpoints
